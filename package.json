@@ -13,6 +13,8 @@
     "gif-to-png": "^2.0.5",
     "image-conversion": "^2.1.1",
     "image-convert": "^0.1.33",
-    "jimp": "^0.16.1"
+    "jimp": "^0.16.1",
+    "node-sprite-generator": "^0.10.2",
+    "numeral": "^2.0.6"
   }
 }
