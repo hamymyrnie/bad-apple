@@ -24,7 +24,7 @@ FileSys.readdir(Path).then(files => {
     files.forEach((file) => {
         console.log(`Reading file: ${file}`);
         JIMP.read(`${Path}/${file}`).then(image => {
-            var OutPath = `${Out}/frame${parseInt(file.slice(6,10))}.png`;
+            var OutPath = `${Out}/frame${file.slice(6,10)}.png`;
             console.log(`Read: ${file} -- Attempting to Convert`);
 
             image
